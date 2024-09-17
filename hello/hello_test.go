@@ -18,6 +18,16 @@ func TestHello(t *testing.T) {
 		want := "Hola, Gus"
 		assertCorrectMessage(t, got, want)
 	})
+	t.Run("in French", func(t *testing.T) {
+		got := Hello("Elodie", french)
+		want := "Bonjour, Elodie"
+		assertCorrectMessage(t, got, want)
+	})
+	t.Run("in German", func(t *testing.T) {
+		got := Hello("Greta", german)
+		want := "Hallo, Greta"
+		assertCorrectMessage(t, got, want)
+	})
 }
 
 // For helper functions, it's a good idea to accept a testing.TB which
