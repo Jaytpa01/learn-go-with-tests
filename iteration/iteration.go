@@ -1,11 +1,12 @@
 package iteration
 
+import "strings"
+
 // Repeat returns `s`, repeated `count` times
 func Repeat(s string, count int) string {
-	var repeated string
+	b := strings.Builder{}
 	for i := 0; i < count; i++ {
-		repeated += s
+		b.WriteString(s)
 	}
-
-	return repeated
+	return b.String()
 }
