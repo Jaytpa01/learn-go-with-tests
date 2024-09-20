@@ -18,8 +18,8 @@ func ExampleAdd() {
 }
 ```
 
-> **Note**  
-The `// Output` comment is actually important. It will be considered the `expected` value written to stdout.
+> [!NOTE]
+> The `// Output` comment is actually important. It will be considered the `expected` value written to stdout.
 
 Some examples:
 
