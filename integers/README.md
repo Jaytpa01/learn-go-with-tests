@@ -1,4 +1,4 @@
-## Testable Examples
+# Testable Examples
 
 - <https://go.dev/blog/examples>
 
